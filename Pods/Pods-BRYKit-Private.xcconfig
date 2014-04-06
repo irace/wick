@@ -1,0 +1,5 @@
+#include "Pods-BRYKit.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/BRYKit" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/BRYKit" "${PODS_ROOT}/Headers/Ono"
+OTHER_LDFLAGS = -ObjC ${PODS_BRYKIT_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

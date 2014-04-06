@@ -1,0 +1,1 @@
+../../../../BRYKit/BRYKit/UIDevice+Hardware.h
